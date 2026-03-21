@@ -13,7 +13,7 @@ export default defineConfig({
     // 头部导航栏
     nav: [
       { text: 'Home', link: '/' },
-      { text: '简介', link: '/docs/introduction' },
+      { text: '简介', link: 'docs/introduction' },
       { text: '下载', link: 'docs/downloads' },
       { text: '项目列表', link: 'docs/project-list' },
       { text: '更新日志', link: 'docs/changelog' },
