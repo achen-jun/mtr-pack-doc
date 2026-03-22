@@ -9,22 +9,22 @@ hero:
   actions:
     - theme: alt
       text: 简介
-      link: docs/introduction
+      link: mtr-pack-doc/docs/introduction
     - theme: brand
       text: 下载
-      link: docs/downloads
+      link: mtr-pack-doc/docs/downloads
     - theme: alt
       text: 项目列表
-      link: docs/project-list
+      link: mtr-pack-doc/docs/project-list
     - theme: alt
       text: 更新日志
-      link: docs/changelog
+      link: mtr-pack-doc/docs/changelog
     - theme: alt
       text: 开发
-      link: docs/development
+      link: mtr-pack-doc/docs/development
     - theme: alt
       text: 关于
-      link: /about
+      link: mtr-pack-doc/about
 
 # features:
 #   - title: Feature A

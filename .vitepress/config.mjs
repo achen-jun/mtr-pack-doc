@@ -12,22 +12,22 @@ export default defineConfig({
     outline: [1,6],
     // 头部导航栏
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '简介', link: 'docs/introduction' },
-      { text: '下载', link: 'docs/downloads' },
-      { text: '项目列表', link: 'docs/project-list' },
-      { text: '更新日志', link: 'docs/changelog' },
-      { text: '开发', link: 'docs/development' },
-      { text: '关于', link: '/about' }
+      { text: 'Home', link: 'mtr-pack-doc/' },
+      { text: '简介', link: 'mtr-pack-doc/docs/introduction' },
+      { text: '下载', link: 'mtr-pack-doc/docs/downloads' },
+      { text: '项目列表', link: 'mtr-pack-doc/docs/project-list' },
+      { text: '更新日志', link: 'mtr-pack-doc/docs/changelog' },
+      { text: '开发', link: 'mtr-pack-doc/docs/development' },
+      { text: '关于', link: 'mtr-pack-doc/about' }
 
     ],
     // 侧边栏
     sidebar: {
-      "docs/introduction": set_sidebar("docs/introduction"),
-      "docs/downloads": set_sidebar("docs/downloads"),
-      "docs/project-list": set_sidebar("docs/project-list"),
-      "docs/changelog": set_sidebar("docs/changelog"),
-      "docs/development": set_sidebar("docs/development"),
+      "mtr-pack-doc/docs/introduction": set_sidebar("mtr-pack-doc/docs/introduction"),
+      "mtr-pack-doc/docs/downloads": set_sidebar("mtr-pack-doc/docs/downloads"),
+      "mtr-pack-doc/docs/project-list": set_sidebar("mtr-pack-doc/docs/project-list"),
+      "mtr-pack-doc/docs/changelog": set_sidebar("mtr-pack-doc/docs/changelog"),
+      "mtr-pack-doc/docs/development": set_sidebar("mtr-pack-doc/docs/development"),
     },
     // 搜索框
     search: {
